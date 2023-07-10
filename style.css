@@ -119,3 +119,35 @@ font-family: 'Roboto', sans-serif; */
   color: #474747;
 }
 /* --------------- main (What I do) -------------------- */
+.section-text {
+  text-align: center;
+}
+.card-img {
+  width: 40px;
+}
+.card-name {
+  font-size: 20px;
+  color: #181818;
+  margin: 0px 0px 20px 25px;
+}
+.card-description {
+  font-size: 16px;
+  color: #757575;
+  margin: 0px 25px 25px 25px;
+}
+.section-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.javascript,
+.react,
+.node-js,
+.mongo-db {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.card-img{
+  margin: 25px;
+}
