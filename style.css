@@ -23,11 +23,10 @@ a {
 font-family: 'Pacifico', cursive;
 font-family: 'Roboto', sans-serif; */
 .header {
-  height: 100vh;
   background-color: #fff8f3;
   background-image: url("images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: bottom right;
 }
 
 .header .nav-bar {
@@ -74,17 +73,13 @@ font-family: 'Roboto', sans-serif; */
 }
 .header .background .left-side .page-title {
   font-size: 80px;
+  text-transform: uppercase;
+  font-family: poppins;
 }
 .header .background .left-side .down {
   margin-right: 30px;
 }
-.header .background .right-side .hardy-vai {
+.header .background .hardy-vai {
   width: 570px;
 }
-.btn-pri{
-    background-color: #fd6e0a;
-    color: #fff8f3;
-    font-size: 18px;
-    align-items: center;
-    
-}
+
