@@ -19,6 +19,17 @@ a {
   cursor: pointer;
   font-size: 18px;
 }
+.container {
+  margin: 130px 230px 0px;
+}
+.section-title {
+  font-size: 35px;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  margin: 30px 0px;
+}
 /* font-family: 'Bree Serif', serif;
 font-family: 'Pacifico', cursive;
 font-family: 'Roboto', sans-serif; */
@@ -83,3 +94,28 @@ font-family: 'Roboto', sans-serif; */
   width: 570px;
 }
 
+/* --------------- main (About Me) -------------------- */
+.about-me {
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 130px 155px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.about-description {
+  width: 105%;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+.name-title {
+  color: #757575;
+}
+.vaule {
+  font-size: 18px;
+  font-weight: bold;
+  color: #474747;
+}
+/* --------------- main (What I do) -------------------- */
