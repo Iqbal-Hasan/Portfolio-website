@@ -22,6 +22,7 @@ a {
 .container {
   margin: 130px 230px 0px;
 }
+
 .section-title {
   font-size: 35px;
   text-align: center;
@@ -31,9 +32,6 @@ a {
   color: #757575;
   margin: 30px 0px;
 }
-/* font-family: 'Bree Serif', serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Roboto', sans-serif; */
 .header {
   background-color: #fff8f3;
   background-image: url("images/header_bg.png");
@@ -148,38 +146,83 @@ font-family: 'Roboto', sans-serif; */
   background: #fff;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
-.card-img{
+.card-img {
   margin: 25px;
 }
-.both-box{
+.both-box {
   margin-top: 100px;
   margin-bottom: 70px;
   display: flex;
   gap: 70px;
 }
-.education-main{
+.education-main {
   font-size: 30px;
   color: #474747;
   margin-bottom: 30px;
 }
-.education-title, .experience-title{
+.education-title,
+.experience-title {
   font-size: 25px;
   color: #474747;
   margin-bottom: 10px;
 }
-.education-uni, .experience-uni{
+.education-uni,
+.experience-uni {
   font-size: 20px;
   color: #757575;
   margin-bottom: 30px;
 }
-.education-decription, .experience-decription{
+.education-decription,
+.experience-decription {
   font-size: 16px;
   color: #757575;
 }
-hr{
+hr {
   margin: 30px 0px;
 }
-.ex-btn{
+.ex-btn {
   display: flex;
   justify-content: center;
+}
+/* Footer section */
+
+.container-foot {
+  margin: 0px 230px;
+  padding: 150px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background-color: #fff8f3;
+  margin-top: 130px;
+}
+.social-side > h2,
+p {
+  text-align: left;
+}
+.social > img {
+  margin: 15px 10px 20px 0px;
+}
+.form-side > h2 {
+  text-align: left;
+}
+.form-side {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px 0px;
+}
+.input input {
+  padding: 20px 15px;
+  width: 400px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.input .message{
+  padding-bottom: 130px;
 }
